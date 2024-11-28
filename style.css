@@ -1,0 +1,106 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height:1.6;
+    margin:0;
+    padding:0;
+    background-color: darkgreen; 
+}
+
+.portada{
+    background-color: rgb(212, 246, 221);
+}
+
+.medidas{
+    text-align: center;
+}
+
+
+
+ul{
+    list-style-type: "decimal";
+}
+
+li{
+    list-style: disc;
+}
+
+
+
+header {
+    background-color: rgb(179, 238, 179);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.imagen-cancha{
+   text-align: center;
+}
+
+ p{
+    text-align: justify;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #333;
+    color: #fff;
+}
+nav a {
+    color: green;
+    text-decoration: none;
+    padding: 15px;
+}
+nav a:hover {
+    background: #4CAF50;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    color:green;
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+    margin: 20px 0;
+}
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: #fff;
+}
+.interactive-section {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #e8f5e9;
+}
+.interactive-section button {
+    padding: 10px 15px;
+    background: #4CAF50;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.interactive-section button:hover {
+    background: #45a049;
+}
+.hidden {
+    display: none;
+}
